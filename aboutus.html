@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <style >
+      body{
+        height: 100%;
+          margin: 0;
+          padding: 0;
+          background-color:teal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topimage">
+      </div>
+      <div class="intro">
+        <h1>ABOUT US</h1>
+        <h2>Philosophy</h2>
+        <h3>Hope</h3>
+        <h4>Contact us for any enquiries</h4>
+
+            </div>
+            <div class="text1">
+              <p>Our organization believes there are solutions to every problem and that most problems can be solved by understanding, cooperation, and  <p>
+              <p>compromise. We believe that smart management and moderation are the keys to long-term success for any industry—be it fishing and waste<p>
+              <p> management. We strive to be non-political and unbiased and to let science dictate both the problems and the solutions. <p>
+              </div>
+
+              <div class="text2">
+                <p>We hope that we can educate more people about the marine life through our website. We need to face and understand environmental</p>
+                <p>problems to be able to solve them,but despair alone doesn’t lead to positive outcomes. It is easy to become overwhelmed </p>
+                <p> by the vastness of the task of reversing the alarming damage to so many aspects of the natural world.</p>
+                <p> We need stories about people working together to make a difference to inspire our own small steps.</p>
+                <p> We are determined to inform readers about threats, consequences and solutions based on scientific facts, not political </p>
+                <p>prejudice or business interests.Last but not least, we hope we can spread the awareness with lots of activities</p>
+                <p> and campaigns to preserve our marine life </p>
+              </div>
+
+
+    <div class="container">
+     <form action="blankpage.html">
+
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+       <label for="country">Country</label>
+       <select id="country" name="country"><br>
+         <option value="usa">-Select Country-</option>
+         <option value="usa">Australia</option>
+         <option value="australia">Brunei</option>
+         <option value="canada">Indonesia</option>
+         <option value="usa">Malaysia</option>  
+         <option value="usa">Singapore</option>
+         <option value="usa">Thailand</option>
+         <option value="usa">Vietnam</option>
+         <option value="usa">Philippines</option>
+
+       </select><br>
+
+       <label for="subject">Subject</label><br>
+       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" style="width:200px"></textarea><br>
+
+       <input type="submit" value="Submit">
+     </form>
+    </div>
+    <script>
+    var acc = document.getElementsByClassName("faq");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+  </body>
+</html>

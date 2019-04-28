@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,700,600,800,900);
+
+.topimage{
+position: absolute;
+width: 1366px;
+ height: 400px;
+ background: url("https://i.ytimg.com/vi/yn8rmQ5_e7c/maxresdefault.jpg") center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+
+}
+
+.wrapper{
+  top: 0;
+  position: sticky;
+}
+.clear {
+  clear: both;
+
+}
+
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgb(58,58,58);
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+
+  /*
+  box-shadow:  0px -2px 3px -1px rgba(0, 0, 0, 1);
+  */
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:hover {
+  background: #222;
+}
+
+.navigation li:first-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.navigation li a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: -3px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation ul li {
+  float: none;
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: #222;
+  border: solid 3px #fff;
+  border-top: 0;
+
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+
+  -webkit-box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation li:hover > ul li:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.navigation li li a:hover {
+  background: #000;
+}
+
+.navigation ul li:last-child a,
+.navigation ul li:last-child a:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.intro > h3 {
+    font-size: 32px;
+    font-family: 'Baloo Chettan', cursive;
+    letter-spacing: 16px;
+    text-align: center;
+    color: #f1f1f1;
+
+}
+.intro h1 {
+  font-size: 60px;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+
+
+a.button {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+	color: white;
+	box-shadow: rgba(237, 238, 236) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+.page1{
+  position: absolute;
+  left: 0.5%;
+  top: 73%;
+  width: 400px;
+   height: 400px;
+   background-image: url("https://media.giphy.com/media/l0HlwNDXXQ4FPFcNG/giphy.gif");
+}
+.page2{
+  position: absolute;
+  top: 73%;
+  left: 35%;
+  width: 400px;
+   height: 400px;
+   background-image: url("https://media.giphy.com/media/xT9DPxv8oh2UCSZFYs/giphy.gif");
+
+}
+
+.page3{
+  position: absolute;
+  top: 73%;
+  right: 1.6%;
+  width: 400px;
+   height: 400px;
+  background-image: url("https://media.giphy.com/media/3s93EL1Lwn2IzIYbDB/giphy.gif");
+}
+.footer{
+	position: absolute;
+	top: 153%;
+	right: 50px;
+}
+ul {
+  list-style:none;
+  font-family: 'Righteous', cursive;
+  color:#f1f1f1;
+
+}
+
+ul li {
+  float:left;
+  margin-right: 20px;
+
+}

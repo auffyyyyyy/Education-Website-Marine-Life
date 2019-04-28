@@ -1,0 +1,98 @@
+.topimage{
+position: absolute;
+top: 0;
+width: 1366px;
+ height: 400px;
+ background: url("https://ak4.picdn.net/shutterstock/videos/428314/thumb/1.jpg") center center;
+ background-size: cover;
+ background-size: 100% 100%;
+}
+
+.intro h1{
+  position: absolute;
+  top: 10%;
+  font-size: 60px;
+    left: 37.5%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#ffffff;
+}
+.intro h3{
+  position: absolute;
+  top: 55%;
+  font-size: 40px;
+    left: 36.5%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#ffffff;
+}
+
+.intro h4{
+  position: absolute;
+  top: 70%;
+  font-size: 15px;
+    left: 0%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#ffffff;
+}
+
+.gambar1{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 85%;
+  background-image: url("http://alicemarshall.com/wp-content/uploads/2011/11/lobster1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text1 {
+  position: absolute;
+  top: 85%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+
+}
+.gambar2{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 400px;
+  top: 155%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVlQmCTKefQXxwgjVnt2Bt3MDX6S2Vit1X8B-Ho2m7Z9Zk1_6vw");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text2{
+  position: absolute;
+  top: 145%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+.gambar3{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 220%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5isShejWjJ95_I32EcNuy8s-Q4u857h_Q5qC-TfUivLRQpiM_Rg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text3{
+  position: absolute;
+  top: 220%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}

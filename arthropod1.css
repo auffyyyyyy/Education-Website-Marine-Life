@@ -1,0 +1,58 @@
+.topimage{
+position: absolute;
+top: 0;
+width: 1366px;
+ height: 400px;
+ background: url("https://ak4.picdn.net/shutterstock/videos/428314/thumb/1.jpg") center center;
+ background-size: cover;
+ background-size: 100% 100%;
+}
+
+.intro h1{
+  position: absolute;
+  top: 10%;
+  font-size: 60px;
+    left: 37.5%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#ffffff;
+}
+.intro h3{
+  position: absolute;
+  top: 55%;
+  font-size: 40px;
+    left: 37.5%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#ffffff;
+}
+.gambar1{
+  position: absolute;
+  left: 1%;
+  width: 400px;
+  height: 500px;
+  top: 80%;
+  background-image: url("https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A9fdf9aa36c28b39ec1907610576a6709cfcedb2ec9cb05042ce28fb5%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text1 {
+  position: absolute;
+  top: 70%;
+  font-size: 20px;
+    left: 35%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+
+}
+.nextlink{
+  position: absolute;
+  top: 140%;
+  font-size: 20px;
+    left: 4%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+
+}

@@ -1,0 +1,179 @@
+
+.topimage{
+position: absolute;
+top: 0;
+width: 1366px;
+ height: 400px;
+ background: url("https://oceana.org/sites/default/files/734564/shutterstock_150541190.jpg") center center;
+ background-size: cover;
+ background-size: 100% 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,700,600,800,900);
+
+.topimage{
+position: absolute;
+width: 1366px;
+ height: 400px;
+ background: url("https://i.ytimg.com/vi/yn8rmQ5_e7c/maxresdefault.jpg") center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+
+}
+
+.wrapper{
+  top: 0;
+  position: sticky;
+}
+.clear {
+  clear: both;
+
+}
+
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgb(58,58,58);
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+
+  /*
+  box-shadow:  0px -2px 3px -1px rgba(0, 0, 0, 1);
+  */
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:hover {
+  background: #222;
+}
+
+.navigation li:first-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.navigation li a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: -3px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation ul li {
+  float: none;
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: #222;
+  border: solid 3px #fff;
+  border-top: 0;
+
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+
+  -webkit-box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation li:hover > ul li:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.navigation li li a:hover {
+  background: #000;
+}
+
+.navigation ul li:last-child a,
+.navigation ul li:last-child a:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.intro h1{
+  position: absolute;
+  top: 60%;
+  font-size: 60px;
+    left: 40%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+
+
+.gambar1{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 90%;
+  background-image: url("https://i.pinimg.com/originals/1a/d2/a3/1ad2a32894bb34b77418969330df5df0.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text1 {
+  position: absolute;
+  top: 90%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+
+}
+.gambar2{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 160%;
+  background-image: url("http://www.livingoceansfoundation.org/wp-content/uploads/2011/08/DSC_41451.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text2{
+  position: absolute;
+  top: 160%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+.gambar3{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 250%;
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/23284783/thumb/10.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text3{
+  position: absolute;
+  top: 250%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}

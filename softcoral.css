@@ -1,0 +1,80 @@
+.topimage{
+position: absolute;
+top: 0;
+width: 1366px;
+ height: 400px;
+ background: url("https://www.nano-reef.com/totm/images/nov2011/softies.jpg") center center;
+ background-size: cover;
+ background-size: 100% 100%;
+}
+
+.intro h1{
+  position: absolute;
+  top: 60%;
+  font-size: 60px;
+    left: 40%;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+
+
+.gambar1{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 90%;
+  background-image: url("https://www.leisurepro.com/blog/wp-content/uploads/2010/05/Coral-Identification-Types-of-Coral-Sea-Fan.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text1 {
+  position: absolute;
+  top: 90%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+
+}
+.gambar2{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 400px;
+  top: 160%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dendronephthya_soft_coral_at_Gilli_Lawa_Laut.JPG/220px-Dendronephthya_soft_coral_at_Gilli_Lawa_Laut.JPG");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text2{
+  position: absolute;
+  top: 160%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}
+.gambar3{
+  position: absolute;
+  left: 3%;
+  width: 400px;
+  height: 500px;
+  top: 250%;
+  background-image: url("https://www.leisurepro.com/blog/wp-content/uploads/2010/05/Coral-Identification-Types-of-Coral-Tree-Coral.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text3{
+  position: absolute;
+  top: 250%;
+  font-size: 15px;
+    left: 40%;
+
+    font-family: 'Baloo Chettan', cursive;
+    color:#f1f1f1;
+}

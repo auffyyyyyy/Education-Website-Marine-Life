@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.fifthpage > h2 {
+    font-size: 30px;
+    font-family: 'Baloo Chettan', cursive;
+    letter-spacing: 16px;
+    text-align: center;
+    color: white;
+  }
+body{
+  height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  top: 0;
+  position: sticky;
+  margin: 20px;
+  width: 97%;
+}
+
+/* The navbar */
+.topnav {
+
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.6;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.faq {
+  background-color: #5c85d6;
+  color: solid blue;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-size: 20px;
+  font-family: 'Baloo Chettan', cursive;
+  letter-spacing: 10px;
+  text-align: center;
+
+}
+
+.active, .faq:hover {
+  background-color: #ccc;
+}
+
+.faq:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: cyan;
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 14px;
+  transition: max-height 0.2s ease-out;
+}
+body{
+  height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:teal;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3xeaTJ-DZg9dLMmEKth9Fugi3aUHsx8rey7AsvOubbZsf5ZOxg") center center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="fifthpage">
+<h2>Frequently Asked Questions</h2>
+</div>
+<div class="container">
+    <div class="topnav">
+      <a href="project1.html">Home</a>
+      <a href="secondpage.html">Type of Fish</a>
+      <a href="thirdpage.html">Coral Reef</a>
+      <a href="fourthpage.html">Endangered Species</a>
+      <a href="fifthpage.html">FAQ</a>
+      <a href="#about">About Us</a>
+    </div>
+<button class="faq">What causes ocean pollution?</button>
+<div class="panel">
+  <p>Pollution in the ocean comes from a variety of sources, such as agricultural fertilizers and pesticides as well as marine litter. Marine litter is
+    human-created waste that reaches coastal or marine environments. The Global Plastics Alliance focuses on reducing the
+    amount of plastic marine litter from entering the ocean.</p>
+</div>
+
+<button class="faq">Where do plastics in the ocean come from?</button>
+<div class="panel">
+  <p>Plastics in the ocean, a significant part of marine litter, come from several different sources. According to experts,
+    most comes from poorly-managed solid waste on land.1 Of that, more than 50% comes from a small number of rapidly-developing countries that have not yet invested in waste management systems.
+    The second most prevalent source of plastics in the ocean is lost or abandoned nets and fishing gear.</p>
+</div>
+
+<button class="faq">What special challenges do we face in preserving life in the world’s oceans?</button>
+<div class="panel">
+  <p>Unlike the land, all of which lies within the boundaries of individual nations, approximately 45 percent of the Earth’s surface is covered by the high seas—areas beyond the jurisdiction of individual nations that are exploited by many but managed by no one.
+    The task of bringing sustainable management to the high seas is an immense challenge. Also, while individual coastal nations have jurisdiction over their exclusive economic zones, the area that extends from the shoreline out 200 nautical miles, many do not have the capacity to enforce fishing and other restrictions in their own waters. As a result, massive amounts of fish are stolen from these countries, a global loss estimated at up to $23.5 billion in fish, jobs, and regional revenue each year.</p>
+</div>
+
+<button class="faq">What is the best way to restore and maintain ocean health?</button>
+<div class="panel">
+  <p>First, we need to curb overfishing. We must prevent the destruction of essential habitat needed to sustain ocean life by banning the most destructive fishing gear and practices, and by halting the decline of wetlands and other areas of critical importance to marine life. Also essential is to protect areas of the world’s oceans that are still relatively pristine. One of the most effective ways to accomplish this is by establishing marine reserves where no fishing and other extractive activities are allowed.</p>
+</div>
+
+<button class="faq">What are the economic impacts of marine litter?</button>
+<div class="panel">
+  <p>In many sectors, the plastic litter in our oceans is already producing additional costs and cutting into profits. Tourism is a good example. Since litter-covered beaches scare off tourists, beach communities have to clean them on a regular basis, in most cases shouldering the costs of plastic collection and disposal themselves. Depending on the region and the level of pollution, plastic litter can also pose problems for fishers. If too much litter clogs their nets, it reduces their catches. It also costs them time to remove the litter from their nets.</p>
+  <p>Further, litter like old fishing nets can get caught in propellers of ships, which can cause serious damage and even disable the ships.  When that happens, the Coast Guard or some other agency has to come to the rescue, producing additional costs. Another aspect to bear in mind: with all of the litter that ends up in our oceans, valuable raw materials on the order of millions of tonnes are lost to the global recovered substance cycle.
+
+And plastic is almost exclusively manufactured on the basis of petroleum. If a research team’s estimates are any indication, as much as 12.7 million tonnes of plastic end up as marine litter every year, a tremendous amount that can neither be recycled nor used as fuel in power plants.</p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("faq");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
