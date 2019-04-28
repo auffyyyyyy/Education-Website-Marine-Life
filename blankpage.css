@@ -1,0 +1,19 @@
+.background{
+  position: absolute;
+  top: 0;
+  width: 99%;
+   height: 100%;
+   background: url("https://www.royalcaribbean.co.uk/blog/wp-content/uploads/2014/01/best-spots-for-marine-life-640x427.jpg") center center;
+   background-size: cover;
+   background-size: 100% 100%;
+}
+.page{
+  position: absolute;
+  top: 15%;
+  left:22.5%;
+  font-size: 30px;
+  font-family: 'Baloo Chettan', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ffffff;
+}
