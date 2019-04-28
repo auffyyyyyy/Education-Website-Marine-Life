@@ -17,13 +17,13 @@ Name Contribution Adib: Endangered species including sealion, whale and sea turt
 
 Added some videos.
 
-Muslih: Sea water, Objectives and importance of coral reef.
+Muslih: Sea water, Objectives and importance of coral reef hard coral.
 
-Zaki: Type of fishes, Plankton and other species
+Zaki: Type of fishes, Plankton and other species and coral page.
 
 Danish: About us, athropot and home page.
 
-Faris: Fresh water, fish, other species , molus and coral.
+Faris: Fresh water, fish, other species , molus and soft coral.
 
 3.Use of third party resources
 
